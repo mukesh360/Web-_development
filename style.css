@@ -1,0 +1,95 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    color:aliceblue;
+    background: url("images/muichiro-tokito-5120x2880-16957.jpg");
+    background-size:cover;
+}
+
+header{
+    font-family:Roboto Mono;
+   
+    display:flex;
+    align-items: baseline;
+
+   
+    
+}
+h1{
+    color:rgb(208, 208, 208);
+    padding-top:9px;
+    padding-right:20px;
+    text-align: center;
+    font-size: 35px;
+    text-shadow:10px 5px 5px hsl(183, 100%, 52%),-3px -3px 5px hsl(326, 100%, 50%);
+}
+
+.navbar ul{
+    list-style-type:none;
+   
+   backdrop-filter: blur(30px);
+    
+    width: 100%;
+    position:fixed;
+
+   
+    
+    
+}
+.navbar a{
+    text-align: center;
+    text-decoration: none;
+    font-size:25px;
+    padding:15px;
+    display: block;
+    color:white;
+   
+
+}
+main h2{
+    color:aliceblue;
+}
+.navbar li{
+    float:right;
+}
+.navbar li:hover{
+   
+    cursor:pointer;
+}
+#search{
+    padding-top: 12px;   
+}
+input{
+    
+    border-color:hsl(0, 0%, 100%);
+    height: 38px;
+    border-radius: 30px;
+    width:300px;
+    
+}
+.nav li{
+    float:left;
+}
+.nav li:hover{
+   
+    cursor:pointer;
+}
+.right:hover{
+    background-color: hsla(0, 3%, 85%, 0.678);
+}
+.image1{
+    padding-left:5%;
+    padding-top:8%;
+    display:flex;
+    
+}
+.image1 a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+
+
+
